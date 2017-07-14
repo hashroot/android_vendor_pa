@@ -15,7 +15,7 @@
 #
 
 # Check for the target product.
-ifeq (pa_mido,$(TARGET_PRODUCT))
+ifeq (pa_potter,$(TARGET_PRODUCT))
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
