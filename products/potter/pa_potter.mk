@@ -30,7 +30,7 @@ TARGET_WANTS_EXTENDED_DPM_PLATFORM := true
 include device/qcom/common/common.mk
 
 # Inherit from mido device
-$(call inherit-product, devicemotorola/potter/device.mk)
+$(call inherit-product, device/motorola/potter/device.mk)
 
 include vendor/pa/main.mk
 
